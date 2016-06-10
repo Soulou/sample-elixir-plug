@@ -1,0 +1,13 @@
+{
+  "name": "Sample Elxir Plug app",
+  "description": "Sample web application using the Elxir language and Plug framework",
+  "logo": "https://scalingo.com/logo.svg",
+  "repository": "https://github.com/Scalingo/sample-crystal-web",
+  "website": "https://scalingo.com",
+  "env": {
+    "BUILDPACK_URL": {
+      "description": "Custom buildpack url",
+      "value": "https://github.com/HashNuke/heroku-buildpack-elixir.git"
+    }
+  }
+}
