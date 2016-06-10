@@ -23,7 +23,7 @@ mix compile
 
 ### Execute
 ```bash
-mix run --no-halt
+PORT=4000 mix run --no-halt
 ```
 
 Deploying on Scalingo
